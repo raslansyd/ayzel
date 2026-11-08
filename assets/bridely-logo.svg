@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <rect width="400" height="400" rx="200" fill="#ffffff"/>
+  <circle cx="200" cy="200" r="188" fill="none" stroke="#e6e1d6" stroke-width="1.5"/>
+
+  <!-- Crescent Moon -->
+  <path d="M245 78 C155 62, 82 135, 96 225 C103 265, 130 296, 162 312 C125 280, 114 222, 132 172 C152 118, 204 86, 260 92 C255 86, 250 81, 245 78 Z" fill="#0f0f0f"/>
+
+  <!-- Bride Silhouette & Flowing Gown -->
+  <g fill="#0f0f0f">
+    <!-- Head & Bridal Updo -->
+    <circle cx="232" cy="126" r="17"/>
+    <circle cx="247" cy="122" r="10"/>
+    <!-- Neck & Shoulders -->
+    <path d="M225 142 Q232 155 215 162 L255 168 Q265 172 258 190 L238 220 L185 202 Q176 200 172 208 C195 202 225 218 238 228 C250 210 264 185 266 172 C268 162 252 155 244 150 Z"/>
+    <!-- Flowing Dress Fold Lines -->
+    <path d="M174 214 C145 245, 108 272, 74 286 C112 282, 148 252, 180 218 Z"/>
+    <path d="M192 224 C172 258, 148 278, 122 290 C152 288, 178 262, 198 228 Z"/>
+    <path d="M210 232 C202 260, 196 276, 188 290 C200 288, 208 265, 214 234 Z"/>
+    <!-- Botanical Sprigs & Flower -->
+    <circle cx="222" cy="268" r="20"/>
+    <circle cx="222" cy="268" r="12" fill="#ffffff"/>
+    <circle cx="222" cy="268" r="4" fill="#0f0f0f"/>
+    <!-- Floral leaves -->
+    <path d="M245 262 Q278 242 286 196 Q280 238 242 266 Z"/>
+    <ellipse cx="282" cy="212" rx="5" ry="10" transform="rotate(25 282 212)"/>
+    <ellipse cx="270" cy="232" rx="5" ry="10" transform="rotate(35 270 232)"/>
+    <ellipse cx="292" cy="236" rx="5" ry="10" transform="rotate(45 292 236)"/>
+    <ellipse cx="268" cy="268" rx="10" ry="5" transform="rotate(-15 268 268)"/>
+    <ellipse cx="288" cy="262" rx="10" ry="5" transform="rotate(-25 288 262)"/>
+  </g>
+
+  <!-- BRIDE.LY Typography -->
+  <text x="200" y="334" text-anchor="middle" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, serif" font-size="38" font-weight="500" letter-spacing="6" fill="#2c2a26">BRIDE.LY</text>
+  <text x="200" y="358" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-size="16" letter-spacing="1.5" fill="#7a756c">Bridal Rental by Ayzal</text>
+</svg>

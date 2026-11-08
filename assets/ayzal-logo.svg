@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2f6f5"/>
+      <stop offset="55%" stop-color="#dcebe7"/>
+      <stop offset="100%" stop-color="#f5ebe6"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#111" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <!-- Soft editorial pastel backdrop inspired by @__ayzal.__ profile image -->
+  <rect width="400" height="400" rx="200" fill="url(#sageBg)"/>
+  <circle cx="200" cy="200" r="186" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Large Serif 'A' Monogram -->
+  <g filter="url(#softShadow)">
+    <path d="M204 78 L122 288 L152 288 L200 160 L246 288 L286 288 L216 78 Z" fill="#0d0f0e"/>
+    <!-- Serif feet -->
+    <rect x="106" y="282" width="60" height="7" rx="2" fill="#0d0f0e"/>
+    <rect x="230" y="282" width="72" height="7" rx="2" fill="#0d0f0e"/>
+    <!-- Crossbar cutout band -->
+    <rect x="135" y="196" width="132" height="32" rx="4" fill="#dcebe7" opacity="0.92"/>
+  </g>
+
+  <!-- Flowing script 'ayzal' across the A -->
+  <text x="202" y="222" text-anchor="middle" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, serif" font-style="italic" font-weight="600" font-size="56" letter-spacing="2" fill="#121413">ayzal</text>
+
+  <!-- 'by fathima hasbin' signature below -->
+  <text x="200" y="324" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-size="22" letter-spacing="1.5" fill="#2c3532">by fathima hasbin</text>
+</svg>
